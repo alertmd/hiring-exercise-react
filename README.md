@@ -8,6 +8,8 @@ This is the starter code for online multi-player Tic Tac Toe, where the board ca
  basic UI for drawing the board on the client side, so that you can focus on game play and client/server
 interaction.
 
+The starter code is purposefully enough boilerplate to short circuit some tooling setup, UI to work with, etc. It is otherwise half finished in some areas so please do not take any existing code as final and change code and behavior you feel necessary to accomplish the task.
+
 The server code is at server/ and all client code can be found in the client/ folder. They run as seperate web services, the server on port 3001 and the client on port 3000.
 
 Obviously there are a lot of places you can go with this to get to a nice end product, but since we've set a time
@@ -25,6 +27,10 @@ We will do a retrospective after where questions include:
 - What would you do differently? (implying you don't have to like all of it!)
 - What is something that you liked how you approached/solved it?
 - etc...
+
+## Download and Turn In
+
+Please do not fork this repo and instead download via this [link](https://github.com/alertmd/hiring-exercise-react/archive/refs/heads/master.zip). Please do not host your result publicly on github. To turn in your result, please zip your files (excluding your node modules if possible) and email to the appropriate person. You may need to upload it to DropBox or similar site to then email a link to bypass spam filters.
 
 ## Installation
 
