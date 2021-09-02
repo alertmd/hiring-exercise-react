@@ -1,0 +1,28 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
+    "react-router-dom": "^5.2.1",
+    "react-scripts": "^4.0.0"
+  },
+  "scripts": {
+    "start": "npm run ensure-installed && react-scripts start",
+    "build": "react-scripts build",
+    "ensure-installed": "[ -d node_modules ] || npm install"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "short_name": "TTaaS",
+  "name": "Tic-Tac-Toe-as-a-Service",
+  "icons": [],
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
