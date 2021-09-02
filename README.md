@@ -28,6 +28,8 @@ We will do a retrospective after where questions include:
 - What is something that you liked how you approached/solved it?
 - etc...
 
+If you have questions, do not hesitate to reach out.
+
 ## Download and Turn In
 
 Please do not fork this repo and instead download via this [link](https://github.com/alertmd/hiring-exercise-react/archive/refs/heads/master.zip). Please do not host your result publicly on github. To turn in your result, please zip your files (excluding your node modules if possible) and email to the appropriate person. You may need to upload it to DropBox or similar site to then email a link to bypass spam filters.
