@@ -53,7 +53,7 @@ npm start
 
 You should be able to hit http://127.0.0.1:3001 and will get a 404 that the specified endpoint does not exist. This is expected. There are a couple stubbed endpoints in the project already to illustrate direction but not be considered complete. They are stubs after all.
 
-The server is using [nodemon](https://nodemon.io/) so it should restart automatically on changes within the `src/` direction. Otherwise, if you make changes such as adding dependencies, you will need to restart the server.
+The server is using [nodemon](https://nodemon.io/) so it should restart automatically on changes within the `src/` directory. Otherwise, if you make changes such as adding dependencies, you will need to restart the server.
 
 You may also want to bring up the documentation for [express.js](https://expressjs.com/).
 
