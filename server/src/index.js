@@ -3,13 +3,10 @@ import 'source-map-support/register';
 
 import {readdirSync} from 'fs';
 import express from 'express';
-import bodyParser from 'body-parser';
 
 //https://expressjs.com/en/4x/api.html
 const app = express();
-
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({extended: false}));
+app.use(express.json());
 
 app.use(function(req, res, next) {
   res.header("Access-Control-Allow-Origin", "*");
@@ -25,7 +22,7 @@ for (const endpoint_file of endpoints) {
 		const default_fn = require(`./endpoints/${endpoint_file}`).default;
 
 		if (!default_fn) {
-			throw new Error(`${endpoint_file} does not export a default function for loading endpoints`);			
+			throw new Error(`${endpoint_file} does not export a default function for loading endpoints`);
 		} else {
 			default_fn(app);
 		}

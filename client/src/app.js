@@ -12,11 +12,14 @@ export function App () {
 			'http://localhost:3001/api/game',
 			{
 				method: 'POST',
-				body: {
+				headers: {
+					'content-type': 'application/json'
+				},
+				body: JSON.stringify({
 					// post body here
 					board_size: board_size || 3,
 					win_size: board_size || 3
-				}
+				})
 			}
 		).then(res => res.json());
 
