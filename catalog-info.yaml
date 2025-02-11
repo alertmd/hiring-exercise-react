@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: hiring-exercise-react
+  description: A React based hiring exercise
+  annotations:
+    business-unit: EverHealth
+    github.com/project-slug: alertmd/hiring-exercise-react
+spec:
+  type: service
+  lifecycle: production
+  owner: EverHealth
+  implementation:
+    languages:
+    - JavaScript
+    - CSS
+    - HTML
